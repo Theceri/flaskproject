@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+</head>
+<body>
+    <h1>Hello {{ my_name }}</h1>
+    <ol>
+        {% for i in my_list %}
+        <li>{{ i }}</li>
+        {% endfor %}
+    </ol>
+    <p>When defining our route, values within 
+    carrot brackets <> indicate a variable</p>
+    <script src="/static/js/app.js" type="text/javascript" charset="utf-8" async defer></script>
+</body>
+</html>
